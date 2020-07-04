@@ -1,11 +1,10 @@
 {
   "name": "boardgamejerk",
   "version": "1.0.0",
-  "description": "",
+  "description": "Boardgame Jerk API",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "messenger": "node messenger.js",
-    "slack": "node slack.js"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -18,12 +17,11 @@
   },
   "homepage": "https://github.com/ChrisChinchilla/boardgamejerk#README",
   "dependencies": {
+    "bgjg": "^1.0.4",
     "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
     "dotenv": "^6.0.0",
-    "express": "^4.16.3",
-    "request": "^2.88.0",
-    "tracery-grammar": "^2.7.3",
-    "twit": "^2.2.10",
-    "bgjg": "^1.0.1"
+    "express": "^4.17.1",
+    "request": "^2.88.0"
   }
 }

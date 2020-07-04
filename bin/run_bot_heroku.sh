@@ -1,2 +1,2 @@
 #!/bin/bash
-node twitter.js
+node index.js
