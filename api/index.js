@@ -16,7 +16,9 @@ app.listen(port, () => {
     console.log(`Listening to requests on ${port}`);
 });
 
-app.get("/", (req, res) => {
+app.get("/api", (req, res) => {
     var bgjgText = bgjgLexicon.generateLexicon();
     res.status(200).json({ message: bgjgText });
 });
+
+module.exports = express;
